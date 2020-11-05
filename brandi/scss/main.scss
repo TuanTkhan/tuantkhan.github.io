@@ -1,0 +1,76 @@
+@import '_variables';
+@import '_header-wrapper';
+@import '_carousel';
+@import '_features';
+@import '_works';
+@import '_meet-our-team';
+@import '_some-fun-facts';
+@import '_lets-discuss';
+@import '_footer';
+@mixin font-size ($target, $context: $base-size) {
+    font-size: ($target/$context) * 1rem;
+}
+
+@media (max-width: 575.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 1199.98px) {}
+
+h2 {
+    @media (max-width: 767.98px) {
+        margin-top: 40px;
+        margin-bottom: 10px;
+        font-size: 22px;
+        line-height: 24px;
+    }
+    font-weight: 800;
+    line-height: 30px;
+    font-size: 28px;
+    color: $color-turquoise;
+    text-transform: uppercase;
+    margin-top: 90px;
+    margin-bottom: 25px;
+}
+
+.heart-icon {
+    position: relative;
+    color: #ccc;
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: -110px;
+        width: 90px;
+        height: 1px;
+        background: #dce1e5;
+    }
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: -110px;
+        width: 90px;
+        height: 1px;
+        background: #dce1e5;
+    }
+}
+
+.heading-title {
+    p {
+        @media (max-width: 767.98px) {
+            font-size: 13px;
+            margin-top: 15px;
+            margin-bottom: 25px;
+        }
+        margin-bottom: 50px;
+        margin-top: 25px;
+        font-size: 18px;
+        font-weight: 600;
+        color: $color-blue;
+    }
+}

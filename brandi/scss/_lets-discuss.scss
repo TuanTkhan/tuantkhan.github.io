@@ -1,0 +1,93 @@
+.lets-discuss {
+    .info {
+        @media (max-width: 991.98px) {
+            display: flex;
+            justify-content: space-around;
+        }
+        p {
+            @media (max-width: 991.98px) {}
+            @media (max-width: 575.98px) {
+                font-size: 18px;
+            }
+            font-size: 22px;
+            line-height: 32px;
+            color: $color-blue;
+        }
+        span {
+            @media (max-width: 991.98px) {
+                font-size: 16px;
+                margin-top: 0;
+            }
+            @media (max-width: 575.98px) {
+                font-size: 13px;
+            }
+            font-size: 13px;
+            line-height: 24px;
+            color: #6a737b;
+            display: block;
+            margin-top: 30px;
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    }
+    .mail-form {
+        form {
+            span {
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 32px;
+                display: block;
+                margin-bottom: 28px;
+            }
+        }
+        input,
+        textarea {
+            color: #212529;
+            width: 100%;
+            margin-bottom: 10px;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            outline: none;
+            padding: 4px 7px;
+            font-family: sans-serif;
+            resize: none;
+        }
+        textarea {
+            margin-top: 45px;
+        }
+        #name,
+        #eml {
+            width: 49%;
+        }
+        #eml {
+            float: right;
+        }
+        a {
+            float: right;
+            text-decoration: none;
+            color: #000;
+            span {
+                font-size: 13px;
+                display: inline-block;
+                padding-right: 12px;
+            }
+        }
+    }
+    .social {
+        @media (max-width: 991.98px) {
+            display: flex;
+            justify-content: center;
+        }
+        .icon-behance::before,
+        .icon-twitter::before,
+        .icon-dribble::before,
+        .icon-forrst-icon::before,
+        .icon-google-plus::before {
+            color: #062033;
+            opacity: 20%;
+            font-size: 26px;
+        }
+    }
+}
