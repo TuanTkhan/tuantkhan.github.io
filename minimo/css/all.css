@@ -1,0 +1,52 @@
+body{
+    font: 14px/24px Arial, sans-serif;
+}
+a{
+    color: #7a7e03;
+    text-decoration: none;
+}
+a:hover{
+    color: #6bc275;
+}
+.main{
+    width: 1061px;
+    margin: auto;
+}
+.header{
+    padding: 70px 0 75px 0;
+}
+.header ul{
+    float: right;
+}
+.logo{
+    background: url(../images/logo.png) no-repeat;
+    width: 119px;
+    height: 23px;
+    float: left;
+    text-indent: -9999px;
+}
+.nav li{
+   text-transform: uppercase;
+   float: left;
+   padding:0 0 0 100px;
+}
+.content{
+    padding: 98px 0 0 81px;
+    color: #626262;
+}
+h1 {
+    font-size: 30px;
+    padding: 0 0 59px;
+}
+h1 span{
+    font-size: 14px;
+}
+.content span{
+    padding:0 0 28px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    display: block;
+}
+p{
+    margin-bottom: 24px;
+}
